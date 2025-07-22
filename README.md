@@ -1,4 +1,4 @@
-# 🧩 Wikipedia Page Web Scraping | Python, Pandas Scraping & Analyzing Top 100 U.S. Companies by Revenue
+# 🧩 Wikipedia Page Web Scraping | Python, Pandas 
  
 # 📝 Description
 Scraped data of the top 100 U.S. companies by revenue from Wikipedia using Python. Cleaned and organized it into a structured CSV using Pandas.
