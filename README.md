@@ -1,48 +1,26 @@
-# 📊 Wikipedia Page Web Scraping | Python, Pandas
+# 📊 Wikipedia Page Web Scraping Using Python & Pandas
 
-# 📝 Description
-This project scrapes the Top 100 U.S. Companies by Revenue from Wikipedia using Python libraries, cleans the extracted data using Pandas, and saves it as a CSV file for further analysis. It demonstrates the end-to-end pipeline of web data extraction, transformation, and storage.
+# 📝 Description:
+Scraped real-time financial and company data from a live Wikipedia page to create a structured dataset of the top 100 U.S. companies by revenue. Cleaned and converted the data into a usable CSV format using Python libraries for further analysis and visualization.
 
-# 🔧 Tools & Skills
-Python
+# 🛠️ Key Tasks:
+Fetched and parsed HTML content using requests and BeautifulSoup
 
-Jupyter Notebook
+Extracted company information from a structured HTML table (rank, name, industry, revenue, employees, HQ, etc.)
 
-requests – For sending HTTP requests
+Cleaned and structured the data using pandas
 
-BeautifulSoup – For parsing and navigating HTML
+Stored the cleaned dataset as a CSV file for analysis or dashboarding
 
-pandas – For data manipulation and CSV export
+# 📊 Conclusion with Insights:
+Successfully scraped 100 companies with key metrics like revenue, growth rate, and employee count
 
-# 📁 Dataset
-Source: Wikipedia – List of largest companies in the United States by revenue
+Walmart, Amazon, and Apple topped the list with the highest revenues
 
-Format: HTML table → CSV
+Data can now be easily imported into BI tools like Power BI or Tableau for visualization and business insights
 
-# 🔄 Key Cleaning Steps
-Accessing the Webpage
-
-Parsing HTML
-
-Extracting Table Headers
-
-Extracting Table Rows
-
-Exporting to CSV
-
-# ✅ Key Insights
-The data includes company revenue, growth %, employee count, and HQ locations — enabling deeper business insights.
-
-Practical use-case for scraping live data, which can be extended to financial analysis, dashboards, or machine learning.
-
-# 📥 How to Use
-Clone the repo
-
-Open the .ipynb notebook
-
-Run the cells sequentially
-
-Check the CSV file in your working directory
+# 🧠 Skills & Tools:
+Web Scraping | Python | Pandas | Data Cleaning | Data Extraction
 
 # 👤 Author
 Shruti Walunj
